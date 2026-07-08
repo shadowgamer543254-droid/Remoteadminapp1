@@ -1,22 +1,24 @@
 {
-  "name": "remote-admin-server",
+  "name": "remote-admin-dashboard",
   "version": "1.0.0",
-  "description": "Signaling & relay server for RemoteAdmin platform",
-  "main": "src/server.js",
-  "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
-  },
+  "private": true,
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "helmet": "^7.1.0",
-    "jsonwebtoken": "^9.0.2",
-    "uuid": "^10.0.0",
-    "ws": "^8.18.0"
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.0",
+    "@mui/material": "^6.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "5.0.1",
+    "react-webcam": "^7.2.0"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://localhost:3001",
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version"]
   }
 }
