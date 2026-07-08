@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">RemoteAdmin</string>
+
+    <!-- Login -->
+    <string name="login_title">Secure Access</string>
+    <string name="login_subtitle">Enter your credentials to continue</string>
+    <string name="login_server_url">Server URL</string>
+    <string name="login_device_id">Device ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">CONNECT</string>
+    <string name="login_remember">Remember this server</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Control Center</string>
+    <string name="device_status">Device Status</string>
+    <string name="connection_status">Connection Status</string>
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting...</string>
+
+    <!-- Remote Control -->
+    <string name="screen_mirror">Screen Mirror</string>
+    <string name="remote_control">Remote Control</string>
+    <string name="touch_enabled">Touch Control: ON</string>
+    <string name="touch_disabled">Touch Control: OFF</string>
+
+    <!-- Media Controls -->
+    <string name="camera_front">Front Camera</string>
+    <string name="camera_back">Back Camera</string>
+    <string name="camera_off">Camera Off</string>
+    <string name="microphone_on">Mic ON</string>
+    <string name="microphone_off">Mic OFF</string>
+
+    <!-- Data Access -->
+    <string name="files">Files</string>
+    <string name="contacts">Contacts</string>
+    <string name="messages">Messages</string>
+    <string name="call_logs">Call Logs</string>
+    <string name="installed_apps">Installed Apps</string>
+
+    <!-- File Operations -->
+    <string name="upload">Upload</string>
+    <string name="download">Download</string>
+    <string name="delete">Delete</string>
+    <string name="browse_files">Browse Files</string>
+
+    <!-- Services -->
+    <string name="start_screen_capture">Start Screen Capture</string>
+    <string name="stop_screen_capture">Stop Screen Capture</string>
+    <string name="enable_accessibility">Enable Remote Control</string>
+    <string name="accessibility_description">Required for remote touch control and gesture injection</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_service">Background Service</string>
+    <string name="notification_channel_alerts">Alerts</string>
+    <string name="screen_capture_active">Screen capture is active</string>
+    <string name="remote_access_active">Remote access is active - visible indicator displayed</string>
+
+    <!-- Security -->
+    <string name="security_warning">This app provides remote access to your device. Only grant access to trusted operators.</string>
+    <string name="consent_required">Remote access requires your explicit consent</string>
+    <string name="active_indicator_label">Remote Access Active</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_control">Control</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_data">Data</string>
+    <string name="nav_settings">Settings</string>
+</resources>

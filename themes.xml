@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base Mparivahan Theme -->
+    <style name="Theme.RemoteAdmin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/mparivahan_primary</item>
+        <item name="colorPrimaryDark">@color/mparivahan_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/mparivahan_primary_light</item>
+
+        <!-- Accent -->
+        <item name="colorSecondary">@color/mparivahan_accent</item>
+        <item name="colorSecondaryVariant">@color/mparivahan_accent_light</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/mparivahan_background</item>
+        <item name="colorSurface">@color/mparivahan_surface</item>
+        <item name="colorOnSurface">@color/mparivahan_text_primary</item>
+
+        <!-- Status Bar -->
+        <item name="android:statusBarColor">@color/mparivahan_primary_dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Navigation Bar -->
+        <item name="android:navigationBarColor">@color/mparivahan_surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Typography -->
+        <item name="android:textAppearance">@style/TextAppearance.RemoteAdmin</item>
+
+        <!-- Card Style -->
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+    </style>
+
+    <!-- Text Appearances -->
+    <style name="TextAppearance.RemoteAdmin" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/mparivahan_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.RemoteAdmin.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mparivahan_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.RemoteAdmin.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mparivahan_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.RemoteAdmin.Subtitle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/mparivahan_text_secondary</item>
+    </style>
+
+    <style name="TextAppearance.RemoteAdmin.Body">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/mparivahan_text_primary</item>
+    </style>
+
+    <style name="TextAppearance.RemoteAdmin.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/mparivahan_text_secondary</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="Widget.RemoteAdmin.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/mparivahan_primary</item>
+        <item name="android:textColor">@color/mparivahan_text_on_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Widget.RemoteAdmin.Button.Accent" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/mparivahan_accent</item>
+        <item name="android:textColor">@color/mparivahan_text_on_primary</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.RemoteAdmin.Button.Outline" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/mparivahan_primary</item>
+        <item name="android:textColor">@color/mparivahan_primary</item>
+        <item name="cornerRadius">8dp</item>
+    </style>
+
+    <style name="Widget.RemoteAdmin.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/mparivahan_primary</item>
+    </style>
+
+    <!-- Card Styles -->
+    <style name="Widget.RemoteAdmin.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">2dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/mparivahan_card</item>
+    </style>
+
+    <style name="Widget.RemoteAdmin.Card.Elevated" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">6dp</item>
+        <item name="contentPadding">16dp</item>
+        <item name="cardBackgroundColor">@color/mparivahan_card_elevated</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Widget.RemoteAdmin.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:background">@color/mparivahan_primary</item>
+        <item name="android:elevation">4dp</item>
+        <item name="titleTextColor">@color/mparivahan_text_on_primary</item>
+    </style>
+
+    <!-- Input Fields -->
+    <style name="Widget.RemoteAdmin.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/mparivahan_primary</item>
+        <item name="hintTextColor">@color/mparivahan_primary</item>
+        <item name="boxCornerRadiusTopStart">8dp</item>
+        <item name="boxCornerRadiusTopEnd">8dp</item>
+        <item name="boxCornerRadiusBottomStart">8dp</item>
+        <item name="boxCornerRadiusBottomEnd">8dp</item>
+    </style>
+
+    <!-- Status Badge -->
+    <style name="Widget.RemoteAdmin.StatusBadge">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mparivahan_text_on_primary</item>
+        <item name="android:background">@drawable/status_badge_background</item>
+    </style>
+
+</resources>

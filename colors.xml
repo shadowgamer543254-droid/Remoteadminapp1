@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mparivahan Theme Colors -->
+    <color name="mparivahan_primary">#1565C0</color>
+    <color name="mparivahan_primary_dark">#0D47A1</color>
+    <color name="mparivahan_primary_light">#42A5F5</color>
+    <color name="mparivahan_accent">#FF6F00</color>
+    <color name="mparivahan_accent_light">#FFA040</color>
+
+    <!-- Status Colors -->
+    <color name="mparivahan_success">#2E7D32</color>
+    <color name="mparivahan_error">#C62828</color>
+    <color name="mparivahan_warning">#F9A825</color>
+    <color name="mparivahan_info">#0277BD</color>
+
+    <!-- Background & Surface -->
+    <color name="mparivahan_background">#F5F5F5</color>
+    <color name="mparivahan_surface">#FFFFFF</color>
+    <color name="mparivahan_surface_variant">#E8EAF6</color>
+    <color name="mparivahan_card">#FFFFFF</color>
+    <color name="mparivahan_card_elevated">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="mparivahan_text_primary">#212121</color>
+    <color name="mparivahan_text_secondary">#757575</color>
+    <color name="mparivahan_text_hint">#9E9E9E</color>
+    <color name="mparivahan_text_on_primary">#FFFFFF</color>
+    <color name="mparivahan_text_on_dark">#FFFFFF</color>
+
+    <!-- Divider & Borders -->
+    <color name="mparivahan_divider">#E0E0E0</color>
+    <color name="mparivahan_border">#BDBDBD</color>
+
+    <!-- Overlay -->
+    <color name="mparivahan_overlay">#80000000</color>
+
+    <!-- Government branding specific -->
+    <color name="govt_header_blue">#1A237E</color>
+    <color name="govt_saffron">#FF9933</color>
+    <color name="govt_green">#138808</color>
+    <color name="govt_chakra_blue">#000080</color>
+</resources>
